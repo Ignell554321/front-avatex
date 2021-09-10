@@ -6,6 +6,9 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
+import { IngresarComponent } from './compra/ingresar/ingresar.component';
+import { IngresarPiezaComponent } from './pieza/ingresar-pieza/ingresar-pieza.component';
+import { ModalProductoComponent } from './modal-producto/modal-producto.component';
 
 
 @NgModule({
@@ -14,7 +17,10 @@ import { SharedModule } from '../shared/shared.module';
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    IngresarComponent,
+    IngresarPiezaComponent,
+    ModalProductoComponent
   ],
   imports: [ 
     CommonModule,
